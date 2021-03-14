@@ -2,6 +2,7 @@
 pt-BR:
   spree:
     admin_login: "Entrada do Administrador"
+    change_my_password: Alerar minha senha
   devise:
     confirmations:
       confirmed: Sua conta foi confirmada com sucesso. Agora você está conectado.
@@ -31,8 +32,11 @@ pt-BR:
     user_passwords:
       spree_user:
         cannot_be_blank: Sua senha não pode estar em branco.
+        no_token: "Você não pode acessar esta página sem vir de um e-mail de redefinição de senha. Se você vier de um e-mail de redefinição de senha, certifique-se de usar o URL completo fornecido."
         send_instructions: Você receberá um e-mail com instruções sobre como redefinir sua senha em poucos minutos.
         updated: Sua senha foi alterada com sucesso. Agora você está conectado.
+    passwords:
+      send_instructions: Se existir uma conta com esse endereço de e-mail, você receberá um e-mail com instruções sobre como redefinir sua senha em alguns minutos.
     user_registrations:
       destroyed: Até logo! Sua conta foi cancelada com sucesso. Esperamos ver você em breve.
       inactive_signed_up: 'Seu cadastro foi feito com sucesso. No entanto, não o conectamos porque sua conta está %{reason}.'
@@ -41,6 +45,7 @@ pt-BR:
     user_sessions:
       signed_in: Entrou com sucesso.
       signed_out: Saiu com sucesso.
+      already_signed_in: Já logado.
   errors:
     messages:
       already_confirmed: já foi confirmado
